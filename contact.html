@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item 1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300;1,700&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,200;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-list" onclick="hideMenu()"></i>
+                <ul>  
+                    <li><a href="index.html">HOME</a></li>  
+                    <li><a href="learn-more.html">ABOUT</a></li>
+                    <li><a href="offer.html">OFFER</a></li>
+                    <li><a href="programs.html">PROGRAMS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+    <section class="location">
+        <h2>You can find us here</h2>
+        <hr>
+        <div class="row">
+            <div class="location-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.7733187854988!2d21.91791341545861!3d47.04467873461862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4746479564d81847%3A0xda97ccf1bcea0869!2sUniversitatea%20din%20Oradea!5e0!3m2!1sro!2sro!4v1656778483883!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Main Headquarters</span>
+                <address>
+                1 Universității Str<br>
+                Oradea<br>
+                410087<br>
+                +40 259 11 11 11<br>
+                univ@mail.com
+            </address>
+            </div>
+            <div class="location-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.2814969170245!2d21.933208015458895!3d47.0543281339578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474647e59720e3eb%3A0x21429c9e4fd6494b!2sFacultatea%20de%20Medicin%C4%83!5e0!3m2!1sro!2sro!4v1656778548149!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Faculty of Medicine</span>
+                <address>   
+                10 1 Decembrie Square<br>
+                Oradea<br>
+                +40 259 11 11 12<br>
+                med.univ@mail.com
+            </address>
+            </div>
+            <div class="location-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.060622437197!2d21.938139215459046!3d47.05866113366108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474647e3a2390d1f%3A0x911f7544cb9683d1!2sFacultatea%20de%20Drept!5e0!3m2!1sro!2sro!4v1656778571435!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Faculty of Law</span>
+                <address>
+                26 General Gheorghe Magheru Bld<br>
+                Oradea<br>
+                +40 259 11 11 13<br>
+                law.univ@mail.com
+                </address>
+            </div>
+    </div>
+    </section>
+
+    <section class="contact">
+        <form>
+            <fieldset  class="contact-form"> 
+                <legend>Leave us a message and we will contact you sooner</legend>
+                <input type="text" name="name" placeholder="Enter your name" required><br>
+                <input type="email" name="email" placeholder="Enter your email address" required><br>
+                <input type="text" name="subject" placeholder="Enter your subject here" required><br>
+                <textarea name="message" placeholder="Enter your message" cols="20" rows="10" required></textarea><br>
+                <button type="submit" class="hero-btn"><a mailto="darius.flonta97@yahoo.com">Send</a></button>
+            </fieldset>
+        </form>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>najnls fndnjan kfnbakln kjlbnfkab njbaks bfkabns baklb<br> kab klbkbfa kjdfisuai;fwarilfwlhohdfjsklalbhcjlsd</p>
+        <div class="icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu (){
+            navLinks.style.right = "0";
+        }
+        function hideMenu (){
+            navLinks.style.right ="-200px";
+        } 
+    
+        </script>
+</body>
+</html>
